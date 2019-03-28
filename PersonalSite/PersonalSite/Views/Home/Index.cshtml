@@ -1,31 +1,25 @@
 ﻿@{
-    ViewBag.Title = "Home Page";
+    ViewBag.Title = "Cater - Personal Site";
 }
 
-<div class="jumbotron">
-    <h1>ASP.NET</h1>
-    <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
-    <p><a href="https://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
-</div>
+@section PageScripts {
+    @Scripts.Render("~/Scripts/HomePage/StageHands.js")
 
-<div class="row">
-    <div class="col-md-4">
-        <h2>Getting started</h2>
-        <p>
-            ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
-            enables a clean separation of concerns and gives you full control over markup
-            for enjoyable, agile development.
-        </p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
-    </div>
-    <div class="col-md-4">
-        <h2>Get more libraries</h2>
-        <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
-    </div>
-    <div class="col-md-4">
-        <h2>Web Hosting</h2>
-        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
-    </div>
+}
+
+@section PageStyles {
+    @Styles.Render("~/Content/PageStyles/HomePage.css")
+}
+
+<div id="stage">
+
+    <input value="<" id="previous-scene" type="button" class="scene-button" data-direction="-1" />
+
+    <div id="scene-one">This will just be a picture of me with text stating who I am and welcoming them to the site.</div>
+    <div id="scene-two">My educational background</div>
+    <div id="scene-three">Shows my gaming interests. I'm thinking a soundless video of just a bunch of clips of me playing the games.</div>
+    <div id="scene-four">Showing other things I do. Maybe inlude a site map there.</div>
+
+    <input value=">" id="next-scene" type="button" class="scene-button" data-direction="1" />
+
 </div>
