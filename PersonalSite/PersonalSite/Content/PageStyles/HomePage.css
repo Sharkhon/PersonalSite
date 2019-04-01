@@ -1,7 +1,12 @@
 ﻿body {
     overflow: hidden;
+    background: mintcream;
 }
 
-main {
-    padding-top: 0;
+.scene-button {
+    background: lightgray;
+    border: none;
+    border-radius: 25% 25% 25% 25%;
+    height: 25px;
+    width: 25px;
 }
