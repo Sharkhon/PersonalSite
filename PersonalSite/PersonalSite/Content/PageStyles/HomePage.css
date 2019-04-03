@@ -9,4 +9,34 @@
     border-radius: 25% 25% 25% 25%;
     height: 25px;
     width: 25px;
+
+    top: 50%;
+}
+
+#previous-scene {
+    left: 1%;
+}
+
+#next-scene {
+    right: 1%;
+}
+
+[id*="scene"] {
+    position: absolute;
+}
+
+#scene-one {
+
+}
+
+#scene-two {
+    display: none;
+}
+
+#scene-three {
+    display: none;
+}
+
+#scene-four {
+    display: none;
 }

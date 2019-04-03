@@ -144,6 +144,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\Images\Me.JPG" />
     <Content Include="Content\PageStyles\HomePage.css" />
     <Content Include="Content\Transitions.css" />
     <Content Include="favicon.ico" />

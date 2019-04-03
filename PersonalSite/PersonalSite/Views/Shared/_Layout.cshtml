@@ -4,6 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@ViewBag.Title</title>
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
 
@@ -11,7 +12,7 @@
     @RenderSection("PageStyles", false)
 </head>
 <body>
-    <div id="nav-bar">
+    <div id="nav-bar" class="toggle">
         <ul>
             <li>@Html.ActionLink("Home", "Index", "Home")</li>
             <li>@Html.ActionLink("Projects", "Projects", "Home")</li>
