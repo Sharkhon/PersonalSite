@@ -15,13 +15,19 @@
 
     <input value="<" id="previous-scene" type="button" class="scene-button" data-direction="-1" />
 
-    <div id="scene-one">This will just be a picture of me with text stating who I am and welcoming them to the site.</div>
+    <div id="scene-one" class="active">
+        <div class="prop-one"><img id="me" src="~/Content/Images/Me.jpg" /></div>
+        <div class="prop-two">Hi! I'm Daniel</div>
+        <div class="prop-four"><img id="logo" src="~/Content/Images/DanielLogo(accent_transparent).png" /></div>
+        <div class="prop-three">This is my site! Please feel free to look around and if you like and of the code, use it!</div>
+    </div>
     <div id="scene-two">My educational background</div>
     <div id="scene-three">Shows my gaming interests. I'm thinking a soundless video of just a bunch of clips of me playing the games.</div>
     <div id="scene-four">Showing other things I do. Maybe include a site map there.</div>
 
     <input value=">" id="next-scene" type="button" class="scene-button" data-direction="1" />
 
+    <div class="fader">This will fade in and out when the user focuses on a prop. Style side: props will change opacity.</div>
 </div>
 
 <p style="position: absolute; bottom: 0; right: 15px; color: lightgray; display: inline-block;">Nick made me.</p>

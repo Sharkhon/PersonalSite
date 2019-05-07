@@ -16,6 +16,8 @@ function OnReady() {
 //      It has a data attr that states to go the next/prev scene
 function SceneChange(initiater) {
     var direction = initiater.DataList['direction'];
+
+
 }
 
 //Moves the items for scene one

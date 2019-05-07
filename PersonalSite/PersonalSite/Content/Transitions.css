@@ -1,3 +1,27 @@
-﻿.HalfSecondTransition {
+﻿.SecondTransition {
+    -webkit-transition: 1s linear;
+    -moz-transition: 1s linear;
+    -o-transition: 1s linear;
+    transition: 1s linear;
+}
 
+.HalfSecondTransition {
+    -webkit-transition: 0.5s linear;
+    -moz-transition: 0.5s linear;
+    -o-transition: 0.5s linear;
+    transition: 0.5s linear;
+}
+
+.QuarterSecondTransition {
+    -webkit-transition: 0.25s linear;
+    -moz-transition: 0.25s linear;
+    -o-transition: 0.25s linear;
+    transition: 0.25s linear;
+}
+
+.TwoSecondLeftTransition {
+    -webkit-transition: left 2s linear;
+    -moz-transition: left 2s linear;
+    -o-transition: left 2s linear;
+    transition: left 2s linear;
 }
